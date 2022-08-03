@@ -136,6 +136,7 @@ body {
 	color: var(--header-color);
 	padding-top: 24px;
 	padding-bottom: 25px;
+	fill: currentColor;
 }
 
 .page-header-email,
@@ -149,6 +150,23 @@ body {
 	padding-bottom: 25px;
 	display: flex;
 	align-items: center;
+}
+
+.envelope-icon,
+.smartphone-icon {
+	margin-right: 10px;
+	background-position: center;
+	background-size: contain;
+	fill: currentColor;
+}
+
+.page-header-item {
+	display: flex;
+	align-items: center;
+}
+
+.page-header-item:hover {
+	color: var(--accent-color);
 }
 
 /* ----------HERO---------- */
